@@ -1,0 +1,198 @@
+:root{
+    --blanco: #FFFFFF;
+    --negro: #212121;
+    --gris: #6d7172;
+    --rosa: #e2928d;
+    --piel: #f4caab;
+    --beige: #e6c570;
+    --verde: #4f766f;
+}
+
+html {
+    font-size: 80%;
+}
+
+body{
+    font-size: 16px;     
+}
+
+.contenedor{
+    width: 60rem;
+    margin: 0 auto;
+}
+
+.nav-bg{
+    background-color: var(--beige);
+    margin-top: -1.7%;
+  
+}
+
+.nav-bd{
+    background-color: var(--beige);
+    margin-top: -0.7%;
+  
+}
+
+.navegacion-principal{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Rowdies", sans-serif;
+
+}
+
+.navegacion-principal a{
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+/* a: hover sirve para darle el efecto cuando le paso el cursor por encima */
+.navegacion-principal a:hover {
+background-color: var(--negro);
+color: var(--blanco);
+}
+
+header{
+    background-color: var(--verde);
+    color: var(--blanco);
+    font-family: "Poetsen One", sans-serif;      
+}
+
+h1{ 
+    text-align: center;
+    
+   
+}
+
+main{
+    font-size: 17px;
+    font-family: "Krub", sans-serif;
+    font-weight: 600;
+}
+
+.pregunta1{
+    margin-left: 16rem;
+}
+
+.pregunta2{
+    margin-right: 19rem;
+}
+
+.parrafo1{
+    margin-right: 45rem;
+    text-align: center;
+}
+
+.beat{
+    margin-left: 55%;
+    margin-top: -12%;
+}
+
+.parrafo2{
+    margin-left: 45rem;
+    text-align: center;
+}
+
+.chico{
+    width: 20%;
+    height: 25%;
+    margin-right: 63%;
+    margin-top: -25%;
+}
+
+.nacio{
+    text-align: right;
+}
+
+/*---------------------------------------------CSS DE PRODUCTOS-------------------------------------------------------*/
+
+
+.iphone{
+text-align: left;
+margin-top: 5%;
+margin-left: 5%;
+font-family: "Rowdies", sans-serif;;
+font-size: 5rem;
+}
+
+.apple{
+    width: 15%;
+    height: 20%;
+    margin-left: 18%;
+    margin-top: -10%;
+
+}
+
+.white{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.black15{
+    margin-left: 40%;
+    margin-top: -46%;
+
+}
+
+.pink15{
+    margin-left: 70%;
+    margin-top: -44%;
+
+}
+
+.pink14{ 
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+.celeste14{
+    margin-left: 40%;
+    margin-top: -43%;
+}
+
+.yellow14{
+    margin-left: 70%;
+    margin-top: -42%;
+
+}
+
+/*----------------------------Samgsung----------------------------------------*/
+
+.samsung{
+    width: 20%;
+    height: 20%;
+    margin-left: 28%;
+    margin-top: -13%;
+}
+
+.S24{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.A35{
+    margin-left: 40%;
+    margin-top: -52%;
+}
+
+.note20{
+    margin-left: 70%;
+    margin-top: -52%;
+}
+
+.A54{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.flip{
+    margin-left: 40%;
+    margin-top: -55%;
+}
+
+.S23{
+    margin-left: 70%;
+    margin-top: -52%;
+}
